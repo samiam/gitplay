@@ -1,1 +1,13 @@
 Learnings of GIT
+
+Add new repo:
+  mkdir gitplay
+  cd gitplay
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:samiam/gitplay.git
+  git push -u origin master
+
+
